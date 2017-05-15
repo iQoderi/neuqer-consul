@@ -1,0 +1,28 @@
+{
+  "name": "neuqer-consul",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/",
+    "lint": "./node_modules/.bin/eslint index.js lib/** tests/**"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "consul": "^0.28.0",
+    "eslint": "^3.18.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "lodash": "^4.17.4",
+    "mocha": "^3.2.0"
+  },
+  "publishConfig": {
+    "registry": "http://192.168.1.115:4873/"
+  }
+}
